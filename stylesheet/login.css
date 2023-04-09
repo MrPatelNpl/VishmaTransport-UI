@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Work+Sans&display=swap');
+
+html{
+    font-family: 'Work Sans', sans-serif  !important;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--primary);
+}
+
+h1{
+    font-size: 5rem;
+    font-family: var(--font1);
+    text-transform: capitalize;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+h1 span{
+    color: var(--lightorange);
+    text-transform: uppercase;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 30px 30px 20px;
+    border-radius: 2px;
+    min-width: 40rem;
+    box-shadow: var(--lightorange) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, var(--primary) 0px -2px 6px 0px inset;
+}
+
+.form-group {
+    margin-bottom: 2.4rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+
+.login-form label {
+    color: #606770;
+    text-transform: uppercase;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(3.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.login-form .checkbox {
+    color: #878787;
+    margin-bottom: 2rem;
+}
+
+.login-form .checkbox label {
+    text-transform: none;
+}
+
+.pull-right {
+    float: right;
+}
+
+.login-form label a {
+    color: #ff2e44;
+}
+
+.login-form .btn {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 0px;
+    margin-bottom: 2rem;
+    background: var(--lightorange);
+    color: var(--white);
+    font-family: var(--font1);
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.login-form .btn:hover{
+    background: #e99a3f;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-center p{
+    font-size: 1.4rem;
+    color: #606770;
+}

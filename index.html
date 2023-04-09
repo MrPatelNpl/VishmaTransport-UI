@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishma Transport</title>
+    <!-- links for custom stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="utility.css">
+    <!-- link for font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link for adobe fonts  -->
+    <link rel="stylesheet" href="https://use.typekit.net/vdr7woe.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- navigation bar starts here -->
+    <nav class="navigation flex center align-center">
+        <div class="wrapper flex center align-center">
+            <div class="navContainer flex space-between align-center">
+                <div class="logo flex center align-center">
+                    <p><span>Y</span>eta<span>Y</span>aat</p>
+                </div>
+                <div class="navlinks flex center align-center">
+                    <span class="logo">
+                        <p><span>y</span>eta<span>y</span>aat</p>
+                    </span>
+                    <a class="link l1 active" href="">home</a>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link l1" data-dropdown-button style="width: 100%">our services<i
+                                class="icon l1 fa-thin fa-angle-down"></i></button>
+                        <div class="dropdown-menu information-grid">
+                            <div class="card">
+                                <div class="heading">ride</div>
+                                <div class="service">
+                                    <a href="" class="dropdown-link">
+                                        <i class="icon fa-thin fa-car-side"></i> car
+                                    </a>
+                                    <a href="" class="dropdown-link"><i class="icon fa-solid fa-motorcycle"></i> bike</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="heading">rent</div>
+                                <div class="service">
+                                    <a href="" class="dropdown-link">
+                                        <i class="icon fa-thin fa-car-side"></i> car
+                                    </a>
+                                    <a href="" class="dropdown-link"><i class="fa-solid fa-van-shuttle"></i> van</a>
+                                    <a href="" class="dropdown-link"><i class="fa-solid fa-van-shuttle"></i> minibus</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="heading">courier</div>
+                                <div class="service">
+                                    <a href="" class="dropdown-link">
+                                        <i class="icon fa-regular fa-paper-plane"></i> send
+                                    </a>
+                                    <a href="" class="dropdown-link"><i
+                                            class="fa-solid fa-arrows-down-to-line"></i>receive</a>
+                                    <a href="" class="dropdown-link"><i class="fa-solid fa-truck-ramp-box"></i>deliver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link l1" data-dropdown-button style="width: 100%">career<i
+                                class="icon l1 fa-thin fa-angle-down"></i></button>
+                        <div class="dropdown-menu information-grid">
+                            <a href="" class="dropdown-link"> <i class="icon fa-regular fa-paper-plane"></i>become a
+                                driver</a>
+                            <a href="" class="dropdown-link"><i class="fa-solid fa-key"></i>get your vehicle rented</a>
+                            <a href="" class="dropdown-link"><i class="fa-solid fa-truck"></i>become a transporter</a>
+                            <a href="" class="dropdown-link"><i class="fa-solid fa-dolly"></i>become a local delivery
+                                guy</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link l1" data-dropdown-button style="width: 100%">more<i
+                                class="icon l1 fa-thin fa-angle-down"></i></button>
+                        <div class="dropdown-menu information-grid">
+                            <a href="" class="dropdown-link">about us</a>
+                            <a href="" class="dropdown-link">contact</a>
+                            <a href="" class="dropdown-link">blog</a>
+                            <a href="" class="dropdown-link">download app</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link l1" data-dropdown-button style="width: 100%">help<i
+                                class="icon l1 fa-thin fa-angle-down"></i></button>
+                        <div class="dropdown-menu information-grid">
+                            <a href="" class="dropdown-link">nearest YetaYaat help center</a>
+                            <a href="" class="dropdown-link"><i class="fa-regular fa-message"></i>message us</a>
+                            <a href="" class="dropdown-link"><i class="fa-solid fa-phone"></i>helpline</a>
+                            <a href="" class="dropdown-link"><i class="fa-solid fa-mobile"></i>download app</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-nav flex center align-center">
+                    <span class="primaryBtn m1-right"><a href="">Login</a></span>
+                    <span class="primaryBtn"><a href="">Register</a></span>
+    
+                    <div class="menuBtn flex center align-center">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navigation bar ends here -->
+    <!-- section for home starts here -->
+
+    <section class="home">
+        <div class="container">
+            <div class="form-container flex align-center">
+                <div class="formHolder flex column align-center">
+                    <div class="top flex space-around align-center">
+                        <div class="option active" data-tab-target="#ridetab">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="tab">ride</span>
+                        </div>
+                        <div class="option" data-tab-target="#drivetab">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="tab">Drive</span>
+                        </div>
+                        <div class="option" data-tab-target="#renttab">
+                            <i class="fa-solid fa-key"></i>
+                            <span class="tab">rent</span>
+                        </div>
+                        <div class="option" data-tab-target="#deliverytab">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                            <span class="tab">deliver</span>
+                        </div>
+                    </div>
+                    <div class="contentHolder">
+                        <div id="ridetab" data-tab-content class="active">
+                            <h1>Car and Bike at your doorstep.</h1>
+                            <span>Safe and comfortable rides, always.</span>
+                            <button class="cta">Signup to ride</button>
+                            <a class="tablink" href="#">Learn more about our riding services...</a>
+                        </div>
+                        <div id="drivetab" data-tab-content>
+                            <h1>Be a driver & earn with us.</h1>
+                            <span>Safe driving starts with us.</span>
+                            <button class="cta">Signup to drive</button>
+                            <a class="tablink" href="#">Learn more about driving...</a>
+                        </div>
+                        <div id="renttab" data-tab-content>
+                            <h1>Drive your dream, rent with us.</h1>
+                            <span>Rent, roll & go.</span>
+                            <button class="cta">Signup to rent</button>
+                            <a class="tablink" href="#">Get your car rented & earn with us...</a>
+                        </div>
+                        <div id="deliverytab" data-tab-content>
+                            <h1>Get your packages deliverd in time.</h1>
+                            <span>Your deliveries, in the right hands.</span>
+                            <button class="cta">Send your package</button>
+                            <a class="tablink" href="#">learn more about delivering...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeImg">
+                <img src="/images/Rezzan_two_person_riding_in_a_single_motorbike_434c2d4b-aaf5-43d1-9af6-ee235d715b05.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- section for home ends here -->
+
+    <!-- section for rider/driver starts here -->
+
+    <section class="rider mx1 flex center column center align-center">
+        <div class="elmntContainer flex align-center space-around">
+            <div class="elmnt elmnt1">
+                <h1 class="num" data-val="">000</h1>
+                <p>lives impacted</p>
+            </div>
+            <div class="elmnt elmnt2 ">
+                <h1 class="num" data-val="">000</h1>
+                <p>packages delivered</p>
+            </div>
+            <div class="elmnt elmnt1">
+                <h1 class="num" data-val="">000</h1>
+                <p>vehicles rented</p>
+            </div>
+
+
+        </div>
+
+        <div class="hero">
+            <div class="riderimg">
+                <img src="images/rider.avif" alt="">
+            </div>
+            <div class="hero_text right flex align-center">
+                <ul>earn with your vehicle
+                    <li class="mx2">get your payment on time</li>
+                    <li>drive on your own free time</li>
+                    <li>earn more with our bonus</li>
+                    <button class="cta">Become a YetaYaat driver</button>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section for rider/driver ends here -->
+
+    <!-- section for banner starts here-->
+
+    <section class="banner flex center align-center">
+        <div class="bannerCont">
+            <h2><span>y</span>eta<span>y</span>aat for Nepali.</h2>
+            <p>"Your one-stop destination for rides, rentals, and deliveries - all in one place!"</p>
+            <button class="cta">See how</button>
+        </div>
+
+    </section>
+    <!-- section for banner ends here-->
+
+    <!-- section for rental starts here-->
+
+    <section class="rental rider mx1 flex center column center align-center">
+        <div class="hero">
+            <div class="hero_text left flex align-center">
+                <ul>our rental service features
+                    <li class="mx2">online booking</li>
+                    <li>vehicle comparison tools</li>
+                    <li>customer reviews</li>
+                    <button class="cta">Rent a car</button>
+                    <a class="tablink" href="#">Learn how to lease a vehicle to be rented here...</a>
+                </ul>
+            </div>
+            <div class="riderimg">
+                <img src="images/rental.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- section for rental ends here-->
+
+    <!-- section for download starts here -->
+
+    <section class="app flex column align-center">
+        <h2>apps to download</h2>
+        <div class="hero">
+            <a href="">
+                <div class="holder">
+                    <div class="applogo">
+                        <img src="images/Rider-App-logo.webp" alt="">
+                    </div>
+                    <p class="">download the YetaYaat app</p>
+                    <i class="fa-solid fa-arrow-down"></i>
+
+                </div>
+            </a>
+            <a href="">
+                <div class="holder">
+                    <div class="applogo">
+                        <img src="images/Driver-App-logo.webp" alt="">
+                    </div>
+                    <p class="">download the driver app </p>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </a>>
+        </div>
+    </section>
+
+    <!-- section for download ends here -->
+
+    <!-- section for delivery starts here -->
+
+    <section class="rider mx1 flex center column center align-center">
+        <div class="hero">
+            <div class="riderimg">
+                <img src="images/delivery.webp" alt="">
+            </div>
+            <div class="hero_text right flex align-center">
+                <ul>our delivery service features
+                    <li class="mx2">easy navigation</li>
+                    <li>delivery tracking</li>
+                    <li>customer support</li>
+                    <li>delivery options</li>
+                    <button class="cta">Deliver package</button>
+                    <a class="tablink" href="#">track your package and more...</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- section for delivery ends here -->
+
+
+    <!-- section for footer starts here -->
+
+    <section class="footer flex column align-center center">
+        <div class="sec sec1">
+            <h2><span>y</span>eta<span>y</span>aat</h2>
+            <span>visit help center</span>
+        </div>
+        <div class="sec sec2">
+            <div class="wrapper">
+                <span class="heading">company</span>
+                <a href="" class="item">about us</a>
+                <a href="" class="item">our offerings</a>
+                <a href="" class="item">newsroom</a>
+                <a href="" class="item">blogs</a>
+                <a href="" class="item">careers</a>
+                <a href="" class="item">gift cards</a>
+            </div>
+            <div class="wrapper">
+                <span class="heading">products</span>
+                <a href="" class="item">ride</a>
+                <a href="" class="item">drive</a>
+                <a href="" class="item">rental</a>
+                <a href="" class="item">delivery</a>
+            </div>
+            <div class="wrapper">
+                <span class="heading">useful links</span>
+                <a href="" class="item">get a ride</a>
+                <a href="" class="item">track my order</a>
+                <a href="" class="item">rent</a>
+                <a href="" class="item">contacts</a>
+                <a href="" class="item">franchise</a>
+                <a href="" class="item">reviews</a>
+            </div>
+        </div>
+        <div class="sec sec3">
+            <div class="socialLinks">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="langreg">
+                <a href=""><i class="fa-solid fa-globe"></i>english</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i>kathmandu</a>
+            </div>
+        </div>
+        <div class="sec sec4">
+            <div class="Dimg">
+                <img src="images/app-store-google-4d63c31a3e.svg" alt="">
+            </div>
+            <div class="Dimg">
+                <img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917.svg" alt="">
+            </div>
+        </div>
+        <div class="sec sec5">
+            <span>&copy; 2023 Vishma Technology Pvt. Ltd. </span>
+            <div class="cdn flex center align-center">
+                <a href="">privacy</a>
+                <a href="">accessibility</a>
+                <a href="">terms</a>
+            </div>
+        </div>
+    </section>
+    <!-- section for footer ends here -->
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

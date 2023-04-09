@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Work+Sans&display=swap');
+
+html {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+
+.top {
+    border-bottom: 1px solid #dadde1;
+    padding-bottom: 2rem;
+}
+
+form {
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.form-group{
+    margin-bottom: 1.2rem;
+}
+
+.form-control {
+    height: calc(4.25rem + 2px);
+    font-size: 1.4rem;
+}
+
+.container .login-form {
+    padding: 2rem 0;
+}
+
+.login-form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.login-form h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #606770;
+}
+
+.selectbox select {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 1.4rem;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 11rem;
+    background: white;
+    border: 1px solid #dadde1;
+    padding: 0 0.75rem;
+}
+
+.gOpt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dadde1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.gOpt label{
+    margin-right: 1.4rem;
+    margin-bottom: 0rem;
+}
+
+.T-P{
+    font-size: 1.1rem;
+    color: #777;
+    width: 36rem;
+    margin-bottom: 1.4rem;
+}
+
+.T-P a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    margin-bottom: 0rem !important;
+}
