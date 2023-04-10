@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.btmNavHolder{
+    position: relative;
+    width: 100%;
+    background: var(--white);
+    padding: 1rem 0
+}
+
+.bottomnav{
+    width: 78%;
+}
+
+.bottomnav .logo p{
+    font-family: var(--font1);
+    text-transform: capitalize;
+    color: black;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.bottomnav .driveLinks{
+    list-style: none;
+}
+
+.bottomnav .driveLinks > li{
+    margin-right: 1.75rem;
+}
+
+.bottomnav .driveLinks > li:last-child{
+    margin-right: 0;
+}
+
+.bottomnav .driveLinks > li a{
+    text-decoration: none;
+    color: #686b6b;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    letter-spacing: 0.2px;
+    font-family: var(--font1);
+    transition: 0.2s ease;
+}
+
+.bottomnav .driveLinks > li a:hover{
+    color: black;
+}
+
+.Dhome{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url("../images/dimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Dhome::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    opacity: 0.4;
+}
+
+.Dhome h2{
+    position: relative;
+    color: var(--white);
+    font-size: 3.4rem;
+    text-align: left;
+    letter-spacing: 0.5px;
+    z-index: 1;
+}
+

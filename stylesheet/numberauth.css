@@ -1,0 +1,59 @@
+
+.login-form h2{
+    width: 36rem;
+    font-size: 1.75rem;
+    text-align: left;
+    font-weight: 600;
+    font-family: var(--font1);
+    margin-bottom: 1.4rem;
+}
+
+.top{
+    padding:0 1.4rem;
+}
+
+
+.login-form p{
+    font-size: 1.4rem;
+    width: 40rem;
+    padding: 1.4rem;
+    color: #606770;
+}
+
+.login-form p span{
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group{
+    padding: 0 1.4rem;
+    margin-bottom: 0rem;
+}
+
+.form-group input{
+    width: 20rem;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+.otplink{
+    display: block;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #dadde1;
+}
+
+.otplink:hover{
+    text-decoration: underline;
+}
+
+.login-form .btn{
+    width: auto;
+    float: right;
+    margin: 1rem 1.4rem 0 1rem;
+}
+
+.login-form .btn:last-child{
+    margin-right: 0rem;
+}
+
